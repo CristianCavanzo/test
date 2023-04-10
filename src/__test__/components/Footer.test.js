@@ -1,7 +1,8 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import { mount } from 'enzyme';
 import React from 'react';
-import Footer from '../../components/Footer';
 import { create } from 'react-test-renderer';
+import Footer from '../../components/Footer';
 
 describe('footer', () => {
   const footer = mount(<Footer />);

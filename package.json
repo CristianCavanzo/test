@@ -75,6 +75,7 @@
     "moduleNameMapper": {
       "\\.(styl|css)$": "<rootDir>/src/__mocks__/styleMockup.js"
     },
-    "testEnvironment": "jsdom"
+    "testEnvironment": "jsdom",
+    "verbose": true
   }
 }
