@@ -6,7 +6,6 @@ import Product from './Product';
 
 const Products = (props) => {
   const { products } = props;
-
   const handleAddToCart = product => () => {
     props.addToCart(product);
   };
